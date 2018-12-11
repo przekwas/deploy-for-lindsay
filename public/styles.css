@@ -1,0 +1,45 @@
+#board {
+    padding: 3em;
+    text-align: center;
+}
+
+.row div {
+    float: left;
+    width: 100px;
+    height: 100px;
+    text-align: 1em;
+    line-height: 2.5em;
+}
+
+.row {
+    clear: both;
+    margin: 0 auto;
+    width: 302px;
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
+}
+
+.row div:hover {
+    cursor: pointer;
+}
+
+.top {
+    border-bottom: 1px black solid;
+}
+
+.bottom {
+    border-top: 1px black solid;
+}
+
+.left {
+    border-right: 1px black solid;
+}
+
+.right {
+    border-left: 1px black solid;
+}
+
+h1 {
+    font-family: 'Questrial', sans-serif;
+    letter-spacing: 1px;
+}
